@@ -15,8 +15,9 @@
     display: inline-block;
     text-align: center;
     position: absolute;
-    top: 25%;
-    left: 42.5%;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
     background-color: hsl(0, 0%, 100%);
     width: 210px;
     height: 330px;
@@ -51,12 +52,4 @@ padding-right: 10px;
 font-weight: 400;
 margin-top: 10px;
 color: hsl(220, 15%, 55%);
-}
-@media (max-width:375px){
-    .container{
-        background-color: hsl(212, 45%, 89%);
-        width: 250px;
-        height: 450px;
-    }
-
 }
