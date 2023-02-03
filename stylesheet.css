@@ -8,6 +8,8 @@
 .container{
     background-color: hsl(212, 45%, 89%);
     height: 100vh;
+    font-family: 'Outfit', sans-serif;
+
 }
 .img-N-text{
     display: inline-block;
